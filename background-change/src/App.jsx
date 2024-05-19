@@ -6,13 +6,9 @@ function App() {
 
   return (
 
-    <div className="h-screen w-screen"
-    style={{backgroundColor:color}}
-    >
-     t
-
-      
-    </div>
+   <div className="h-screen w-screen" style={{backgroundColor:color}}>
+    test
+   </div>
 
    
   
