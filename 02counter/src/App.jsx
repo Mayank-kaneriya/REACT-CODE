@@ -15,7 +15,13 @@ const addValue=()=>{
   {
     counter=counter+1
     console.log(counter);
-    setCounter(counter)
+    // setCounter(counter);
+    // setCounter(counter);
+
+    setCounter(previousCounter =>  previousCounter+1)
+    setCounter(previousCounter =>  previousCounter+1)
+    setCounter(previousCounter =>  previousCounter+1)
+    setCounter(previousCounter =>  previousCounter+1)
 
   }
     
